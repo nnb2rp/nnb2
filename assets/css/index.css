@@ -18,8 +18,12 @@ body{
     margin-bottom: 1em;
 }
 
-.txt-logo{
+.txt-logo, .txt-local{
     color: #fff;
+}
+
+.txt-local{
+    margin-top: 1em;
 }
 
 .info{
