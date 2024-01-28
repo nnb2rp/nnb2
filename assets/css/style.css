@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800&display=swap");
+
+@font-face {
+  font-family: tidy;
+  src: url("../font/tidy.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-attachment: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../imagens/background_night.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+#logomarca > span {
+  color: #ffcc00;
+  font-family: tidy;
+  font-size: 6rem;
+  font-weight: 200;
+  text-shadow: #000 2px 2px 10px;
+}
+
+#logomarca {
+  color: #999;
+  font-family: tidy;
+  font-size: 6rem;
+  font-weight: 200;
+  text-shadow: #000 2px 2px 10px;
+}
+
+#logo,
+#contact {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#illustration_nnb2 {
+  border-radius: 2rem;
+  width: 25rem;
+}
+
+#contact {
+  flex-direction: column;
+}
+
+#slogan_nnb2 {
+  color: #ffcc00;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 1rem;
+  text-align: center;
+  text-shadow: #000 2px 2px 10px;
+}
+
+#phone {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+#whatsapp {
+  width: 2rem;
+}
+
+#phone_nnb2 {
+  color: #ffcc00;
+  font-size: 1.8rem;
+  text-shadow: #000 2px 2px 10px;
+}
+
+#credit {
+  color: #fff;
+  font-size: 0.7rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+  #logo,
+  #contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.7rem;
+  }
+
+  #illustration_nnb2 {
+    border-radius: 2rem;
+    width: 90%;
+  }
+
+  #slogan_nnb2 {
+    color: #ffcc00;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding: 0.7rem;
+    text-align: center;
+    text-shadow: #000 2px 2px 10px;
+  }
+
+  #phone {
+    align-items: center;
+    display: flex;
+    gap: 0.7rem;
+  }
+
+  #whatsapp {
+    width: 2rem;
+  }
+
+  #phone_nnb2 {
+    color: #ffcc00;
+    text-shadow: #000 2px 2px 10px;
+  }
+
+  #credit {
+    color: #fff;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+  }
+}
